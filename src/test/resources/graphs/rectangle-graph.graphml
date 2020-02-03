@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<key attr.name="label" attr.type="string" for="node" id="label"/>
+<key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+<key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+<key attr.name="r" attr.type="int" for="node" id="r"/>
+<key attr.name="g" attr.type="int" for="node" id="g"/>
+<key attr.name="b" attr.type="int" for="node" id="b"/>
+<key attr.name="x" attr.type="float" for="node" id="x"/>
+<key attr.name="y" attr.type="float" for="node" id="y"/>
+<key attr.name="size" attr.type="float" for="node" id="size"/>
+<key attr.name="type" attr.type="string" for="node" id="type"/>
+<graph edgedefault="directed">
+<node id="0">
+<data key="label">A</data>
+<data key="type">start</data>
+<data key="size">40.0</data>
+<data key="r">109</data>
+<data key="g">114</data>
+<data key="b">183</data>
+<data key="x">-592.5958</data>
+<data key="y">1110.4286</data>
+</node>
+<node id="1">
+<data key="label">B</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-143.36995</data>
+<data key="y">1069.0066</data>
+</node>
+<node id="2">
+<data key="label">C</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">318.5999</data>
+<data key="y">1084.9381</data>
+</node>
+<node id="3">
+<data key="label">D</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">624.4558</data>
+<data key="y">1091.3108</data>
+</node>
+<node id="4">
+<data key="label">E</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-656.3158</data>
+<data key="y">622.9234</data>
+</node>
+<node id="5">
+<data key="label">F</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-149.74196</data>
+<data key="y">635.66864</data>
+</node>
+<node id="22">
+<data key="label">G</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">352.13507</data>
+<data key="y">606.69354</data>
+</node>
+<node id="7">
+<data key="label">H</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">662.6878</data>
+<data key="y">581.50134</data>
+</node>
+<node id="8">
+<data key="label">I</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-735.96576</data>
+<data key="y">43.01517</data>
+</node>
+<node id="9">
+<data key="label">K</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-223.01993</data>
+<data key="y">33.45624</data>
+</node>
+<node id="10">
+<data key="label">L</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">328.1579</data>
+<data key="y">-33.45624</data>
+</node>
+<node id="11">
+<data key="label">M</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">675.4318</data>
+<data key="y">-14.338389</data>
+</node>
+<node id="12">
+<data key="label">N</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-720.03577</data>
+<data key="y">-619.73706</data>
+</node>
+<node id="13">
+<data key="label">O</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-347.2739</data>
+<data key="y">-632.4823</data>
+</node>
+<node id="14">
+<data key="label">P</data>
+<data key="type">sad</data>
+<data key="size">40.0</data>
+<data key="r">183</data>
+<data key="g">107</data>
+<data key="b">114</data>
+<data key="x">254.87993</data>
+<data key="y">-616.5508</data>
+</node>
+<node id="15">
+<data key="label">Q</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">716.8498</data>
+<data key="y">-651.60016</data>
+</node>
+<node id="16">
+<data key="label">R</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-745.52374</data>
+<data key="y">-1139.1053</data>
+</node>
+<node id="17">
+<data key="label">S</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">-289.9259</data>
+<data key="y">-1132.7328</data>
+</node>
+<node id="18">
+<data key="label">T</data>
+<data key="size">40.0</data>
+<data key="r">153</data>
+<data key="g">153</data>
+<data key="b">153</data>
+<data key="x">283.55392</data>
+<data key="y">-1113.615</data>
+</node>
+<node id="21">
+<data key="label">U</data>
+<data key="type">happy</data>
+<data key="size">40.0</data>
+<data key="r">107</data>
+<data key="g">183</data>
+<data key="b">107</data>
+<data key="x">645.2185</data>
+<data key="y">-1086.5453</data>
+</node>
+<edge id="0" source="0" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="1" source="0" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="2" source="5" target="4">
+<data key="weight">1.0</data>
+</edge>
+<edge id="3" source="5" target="1">
+<data key="weight">1.0</data>
+</edge>
+<edge id="4" source="1" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="6" source="5" target="22">
+<data key="weight">1.0</data>
+</edge>
+<edge id="7" source="22" target="2">
+<data key="weight">1.0</data>
+</edge>
+<edge id="8" source="2" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="9" source="7" target="22">
+<data key="weight">1.0</data>
+</edge>
+<edge id="10" source="7" target="3">
+<data key="weight">1.0</data>
+</edge>
+<edge id="11" source="4" target="8">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="12" source="8" target="12">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="13" source="12" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="14" source="12" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="15" source="8" target="9">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="16" source="9" target="5">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="17" source="9" target="10">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="18" source="22" target="10">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="19" source="9" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="20" source="17" target="16">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="21" source="17" target="13">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="22" source="13" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="23" source="18" target="14">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="24" source="17" target="18">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="25" source="14" target="10">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="26" source="10" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="27" source="11" target="7">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="28" source="15" target="11">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="29" source="14" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="30" source="21" target="15">
+<data key="weight">1.0</data>
+</edge>
+<edge directed="false" id="31" source="21" target="18">
+<data key="weight">1.0</data>
+</edge>
+</graph>
+</graphml>
