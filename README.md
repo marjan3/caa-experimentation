@@ -1,6 +1,10 @@
 # Visual implementation of CAA algorithm with example usage
 Java implementation of the Crossbar Adaptive Array (WIP) with usage
 
+![screenshot2](https://github.com/Tanevski3/caa-experimentation/blob/master/i2.png)
+
+![screenshot1](https://github.com/Tanevski3/caa-experimentation/blob/master/i1.png)
+
 # Requirements
 
  - Java 1.8
@@ -27,9 +31,6 @@ Java implementation of the Crossbar Adaptive Array (WIP) with usage
  - `mv caa-experimentation-${version}.zip dits/`
 
 # Usage Guide
-
-![screenshot2](https://github.com/Tanevski3/caa-experimentation/blob/master/i2.png)
-![screenshot1](https://github.com/Tanevski3/caa-experimentation/blob/master/i1.png)
 
  
 Once File -> Open Graph is clicked a file selection window will appear, where the user can browse through its filesystem to select a graph for loading into the software.
