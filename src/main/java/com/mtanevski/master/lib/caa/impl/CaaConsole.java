@@ -5,7 +5,11 @@ import com.mtanevski.master.lib.caa.CaaEdge;
 import com.mtanevski.master.lib.caa.CaaExperimenter;
 import com.mtanevski.master.lib.caa.CaaGraph;
 import com.mtanevski.master.lib.caa.impl.agents.CaaAgentFactory;
+import com.mtanevski.master.lib.caa.impl.experiment.CaaExperimentData;
 import com.mtanevski.master.lib.caa.impl.utils.EfficiencyCalculator;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CaaConsole {
 
@@ -14,6 +18,8 @@ public class CaaConsole {
         System.out.println("State of the Graph: ");
         System.out.println(graph.toString());
         System.out.println("*******************************************************************");
+        System.out.println("Happy states: " + graph.getHappy());
+        System.out.println("Sad states: " + graph.getSad());
     }
 
     public static void printWelcome() {
@@ -116,11 +122,20 @@ public class CaaConsole {
                 printState(caaExperimenter);
                 printWalking();
             }
-
-            caaExperimenter.getData().setHappyToShortestPathFactor(EfficiencyCalculator.calculateHappyToShortestPathFactor(caaExperimenter));
             printReachedEndState(caaExperimenter);
-
         }
+
+        caaExperimenter.getData().resetCurrent();
+        List<CaaEdge> happinessPath = new ArrayList<>();
+        while (caaExperimenter.canTraverse()) {
+            happinessPath.add(caaExperimenter.traverse(agent));
+            CaaEdge lastEdge = happinessPath.get(happinessPath.size() - 1);
+            if (caaExperimenter.getTraversedGraph().getHappy().contains(lastEdge.getFrom()) || caaExperimenter.getTraversedGraph().getHappy().contains(lastEdge.getTo())){
+                break;
+            }
+        }
+        caaExperimenter.getData().setPathToHappyState(happinessPath);
+        caaExperimenter.getData().setHappyToShortestPathFactor(EfficiencyCalculator.calculateHappyToShortestPathFactor(caaExperimenter));
 
         printGraph(caaExperimenter.getTraversedGraph());
         printShortestPathEfficiency(caaExperimenter);

@@ -60,8 +60,8 @@ public class CaaExperimenterImpl implements CaaExperimenter {
             counter++;
             this.resetTraversal();
             while (this.canTraverse()) {
-                CaaEdge traverse = this.traverse(caaAgent);
-                this.trail(traverse);
+                CaaEdge traversedEdge = this.traverse(caaAgent);
+                this.trail(traversedEdge);
             }
         }
         this.findHappyState(caaAgent);
