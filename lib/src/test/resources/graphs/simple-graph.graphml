@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="type" attr.type="string" for="node" id="type"/>
+  <key attr.name="label" attr.type="string" for="node" id="label"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0"> 
+      <data key="label">A</data>
+      <data key="type">start</data>
+    </node>
+    <node id="n1">
+      <data key="label">B</data>
+    </node>
+    <node id="n2">
+      <data key="label">C</data>
+      <data key="type">sad</data>
+    </node>
+    <node id="n3">
+      <data key="label">D</data>
+    </node>
+    <node id="n4">
+      <data key="label">E</data>
+    </node>
+    <node id="n5">
+      <data key="label">F</data>
+      <data key="type">happy</data>
+    </node>
+    <node id="n6">
+      <data key="label">G</data>
+    </node>
+    <node id="n7">
+      <data key="label">H</data>
+      <data key="type">sad</data>
+    </node>
+    <node id="n8">
+      <data key="label">I</data>
+    </node>
+    <node id="n9">
+      <data key="label">L</data>
+    </node>
+    <node id="n10">
+      <data key="label">M</data>
+    </node>
+    <edge source="n0" target="n2"/>
+    <edge source="n1" target="n2"/>
+    <edge source="n2" target="n3"/>
+    <edge source="n3" target="n5"/>
+    <edge source="n3" target="n4"/>
+    <edge source="n4" target="n6"/>
+    <edge source="n6" target="n5"/>
+    <edge source="n5" target="n7"/>
+    <edge source="n6" target="n8"/>
+    <edge source="n8" target="n7"/>
+    <edge source="n8" target="n9"/>
+    <edge source="n8" target="n10"/>
+    <edge source="n0" target="n10"/>
+  </graph>
+</graphml>

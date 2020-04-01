@@ -24,11 +24,12 @@ Java implementation of the Crossbar Adaptive Array (WIP) with usage
  - Right Click and Run `JavaFxEntry.java` to check the results
  
 # Deploy
+ - `cd gui`
  - `mvn jfx:jar`
- - `mv jfx/app/caa-experimentation-${version}-jfx.jar jfx/app/caa-experimentation-${version}.jar`
- - `zip jfx/app/. caa-experimentation-${version}`
+ - `mv gui/target/jfx/app/caa-experimentation-gui-${version}-jfx.jar gui/target/jfx/app/caa-experimentation-gui-${version}.jar`
+ - `zip gui/target/jfx/app/. caa-experimentation-gui-${version}`
  - `rm -rf dist/*`
- - `mv caa-experimentation-${version}.zip dits/`
+ - `mv caa-experimentation-gui-${version}.zip dist/`
 
 # Usage Guide
 

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Arvo-Regular";
+  src: url("arvo-regular-webfont.woff2") format("woff2"),
+    url("arvo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

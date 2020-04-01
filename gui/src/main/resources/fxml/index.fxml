@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+<VBox prefHeight="725.0" prefWidth="900.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mtanevski.master.gui.MainController">
+    <children>
+        <MenuBar VBox.vgrow="NEVER">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#openGraphFile" text="Open Graph…" />
+                        <MenuItem mnemonicParsing="false" onAction="#openResultsFile" text="Open Results…" />
+                        <Menu fx:id="openRecentMenu" mnemonicParsing="false" text="Open Recent" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="saveResultsItem" mnemonicParsing="false" onAction="#saveResults" text="Save Results As..." />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#openPreferences" text="Preferences..." />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem mnemonicParsing="false" onAction="#exit" text="Quit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Experiment">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#animateCaaAgentTraversal" text="Agent Traversal" />
+                        <MenuItem mnemonicParsing="false" onAction="#animateCaaExperiment" text="Find Happy State" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="View">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#viewGraphDetails" text="Graph Statistics" />
+                        <CheckMenuItem mnemonicParsing="false" onAction="#viewShortestPath" text="Shortest Paths" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#about" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="412.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+            <children>
+            <TabPane fx:id="workspace" prefHeight="359.0" prefWidth="640.0" tabClosingPolicy="ALL_TABS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <tabs>
+                <Tab fx:id="graphTab" closable="false" text="\%graph_title%">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                                  <WebView fx:id="web" layoutX="48.0" layoutY="95.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0" />
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+            </children>
+        </AnchorPane>
+        <ToolBar prefHeight="40.0" prefWidth="200.0">
+            <items>
+                <ProgressBar fx:id="progressBar" prefWidth="200.0" progress="0.0" />
+                <Label fx:id="loadingLbl" text="Loading..." />
+            </items>
+        </ToolBar>
+    </children>
+</VBox>
