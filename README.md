@@ -14,8 +14,8 @@ Java implementation of the Crossbar Adaptive Array (WIP) with usage
  - Intellij
 
 # Install
- - `git clone https://github.com/Tanevski3/caa-algorithm-visualization.git`
- - `cd ./caa-algorithm-visualization`
+ - `git clone https://github.com/Tanevski3/caa-experimentation.git`
+ - `cd ./caa-experimentation`
  - `mvn clean install`
  
 # Run
