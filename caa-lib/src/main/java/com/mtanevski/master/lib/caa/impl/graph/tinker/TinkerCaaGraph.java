@@ -2,7 +2,7 @@ package com.mtanevski.master.lib.caa.impl.graph.tinker;
 
 import com.mtanevski.master.lib.caa.CaaEdge;
 import com.mtanevski.master.lib.caa.CaaGraph;
-import com.mtanevski.master.lib.caa.impl.Contstants;
+import com.mtanevski.master.lib.caa.impl.Constants;
 
 import org.apache.tinkerpop.gremlin.process.traversal.Path;
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversal;
@@ -263,14 +263,14 @@ public class TinkerCaaGraph implements CaaGraph {
     @Override
     public void resetWeightData() {
         g.E().forEachRemaining(edge -> {
-            edge.property(WEIGHT, Contstants.EDGES_WEIGHT);
+            edge.property(WEIGHT, Constants.EDGES_WEIGHT);
         });
     }
 
     @Override
     public void resetTraversalWeightData() {
         g.E().forEachRemaining(edge -> {
-            edge.property(TRAVERSAL_WEIGHT, Contstants.EDGES_TRAVERSAL_WEIGHT);
+            edge.property(TRAVERSAL_WEIGHT, Constants.EDGES_TRAVERSAL_WEIGHT);
         });
     }
 

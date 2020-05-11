@@ -5,7 +5,7 @@ import com.mtanevski.master.lib.caa.CaaEdge;
 import com.mtanevski.master.lib.caa.CaaExperimenter;
 import com.mtanevski.master.lib.caa.CaaGraph;
 import com.mtanevski.master.lib.caa.impl.utils.EfficiencyCalculator;
-import com.mtanevski.master.lib.caa.impl.Contstants;
+import com.mtanevski.master.lib.caa.impl.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,11 +18,11 @@ public class CaaExperimenterImpl implements CaaExperimenter {
     private CaaExperimentData data;
     private CaaGraph graph;
 
-    private Double happinessIncrement;
-    private Double happinessDecrement;
+    private final Double happinessIncrement;
+    private final Double happinessDecrement;
 
     public CaaExperimenterImpl(CaaGraph caaGraph) {
-        this(caaGraph, Contstants.HAPPY_INCREMENTER, Contstants.SAD_INCREMENTER);
+        this(caaGraph, Constants.HAPPY_INCREMENTER, Constants.SAD_INCREMENTER);
     }
 
     public CaaExperimenterImpl(CaaGraph caaGraph, Double happyMultiplier, Double sadMultiplier) {
@@ -72,7 +72,7 @@ public class CaaExperimenterImpl implements CaaExperimenter {
     public void executeTraversal(CaaAgent caaAgent) {
         this.resetTraversal();
         while (this.canTraverse()) {
-           this.traverse(caaAgent);
+            this.traverse(caaAgent);
         }
     }
 
@@ -137,7 +137,7 @@ public class CaaExperimenterImpl implements CaaExperimenter {
     @Override
     public void trail(CaaEdge caaEdge) {
         // incrementing weight to indicate that the edge has been traversed
-        this.graph.incrementTraversalWeight(Contstants.TRAVERSAL_INCREMENTER, caaEdge.getFrom(), caaEdge.getTo());
+        this.graph.incrementTraversalWeight(Constants.TRAVERSAL_INCREMENTER, caaEdge.getFrom(), caaEdge.getTo());
 
         String[] edge = new String[]{caaEdge.getFrom(), caaEdge.getTo()};
         String traversedVertex = caaEdge.getTo();

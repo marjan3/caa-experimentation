@@ -12,7 +12,7 @@
     <name>Caa Experimentation</name>
 
     <modules>
-        <module>lib</module>
+        <module>caa-lib</module>
         <module>gui</module>
         <module>console</module>
     </modules>

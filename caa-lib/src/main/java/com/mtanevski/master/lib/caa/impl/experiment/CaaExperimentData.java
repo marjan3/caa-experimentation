@@ -12,12 +12,12 @@ import java.util.List;
  */
 public class CaaExperimentData {
 
-    private List<String[]> sadnessPaths;
-    private List<String[]> happinessPaths;
+    private final List<String[]> sadnessPaths;
+    private final List<String[]> happinessPaths;
     private List<CaaEdge> pathToHappyState;
 
     private CaaTraversalDataImpl current;
-    private List<CaaTraversalData> traversalDataHistory;
+    private final List<CaaTraversalData> traversalDataHistory;
 
     private Double happyToShortestPathFactor;
 
