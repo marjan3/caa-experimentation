@@ -19,9 +19,7 @@ Java implementation of the Crossbar Adaptive Array (WIP) with usage
  - `mvn clean install`
  
 # Run
- - Right Click and Run `ConsoleEntry.java` to check the results
- or
- - Right Click and Run `JavaFxEntry.java` to check the results
+ - Find `MainEntry.java` in `console` or `gui`, then right click and run
  
 # Deploy
  - `cd gui`
@@ -29,10 +27,9 @@ Java implementation of the Crossbar Adaptive Array (WIP) with usage
  - `mv gui/target/jfx/app/caa-experimentation-gui-${version}-jfx.jar gui/target/jfx/app/caa-experimentation-gui-${version}.jar`
  - `zip gui/target/jfx/app/. caa-experimentation-gui-${version}`
  - `rm -rf dist/*`
- - `mv caa-experimentation-gui-${version}.zip dist/`
+ - `mv caa-experimentation-gui-${version}.zip ../dist/`
 
 # Usage Guide
-
  
 Once File -> Open Graph is clicked a file selection window will appear, where the user can browse through its filesystem to select a graph for loading into the software.
  
@@ -62,15 +59,18 @@ The experiment results are divided in two parts.
     c.	Happy to shortest path factor is the percentage of edges that match from the happy path to the shortest path 
 2.	Vertices traversals per generation tab goes more intro details about a single generation. It shows the increments, traversed edges, increments weight & traversal weight. The results are paged depending on the number of generations.
 
-   
-
 ## Viewing additional statistics & shortest path
 Additionally, the software provides a visualization of the shortest path & vertices distribution. That can be done through the View menu.
- 
-  
 
 # Available as JAR
  - The application is now available as a JAR file. Within the `dist/` directory of this repository the executable JAR file can be found.
 
 Check console and generated graph for results or use the application to run own simulations or traversals
+
+# Future
+ - Increase unit test coverage for `caa-lib` to 100% (current is 90%)
+ - Use a framework for GUI part to organize code better
+ - Support for other formats then `graphml`
+ - Rename `happy` & `sad` to something else
+ - 
 

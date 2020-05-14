@@ -59,6 +59,8 @@ window.animateCaaVertices = function (jsonString) {
 
 window.drawCaaVertices = function (jsonString) {
   const nodes = JSON.parse(jsonString);
+  clearNodes();
+
   for (let counter = 0; counter < nodes.length; counter++) {
     const node = getNode(nodes[counter]);
     window.visNodes.update({

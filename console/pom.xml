@@ -5,21 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.mtanevski.master</groupId>
+        <groupId>com.mtanevski.master.caa</groupId>
         <artifactId>caa-experimentation</artifactId>
         <version>0.0.1</version>
     </parent>
 
     <artifactId>console</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
     <name>Caa Experimentation Console</name>
 
     <dependencies>
         <dependency>
-            <groupId>com.mtanevski.master</groupId>
+            <groupId>com.mtanevski.master.caa</groupId>
             <artifactId>caa-lib</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.2</version>
         </dependency>
     </dependencies>
 

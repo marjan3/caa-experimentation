@@ -5,31 +5,31 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.mtanevski.master</groupId>
+        <groupId>com.mtanevski.master.caa</groupId>
         <artifactId>caa-experimentation</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
     </parent>
 
     <artifactId>caa-experimentation-gui</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.9</version>
     <packaging>jar</packaging>
     <name>Caa Experimentation Graphical User Interface</name>
 
     <properties>
         <!-- Empty so javafx-maven-plugin can be used -->
-        <mainClass></mainClass>
+        <mainClass/>
     </properties>
 
     <dependencies>
         <dependency>
+            <groupId>com.mtanevski.master.caa</groupId>
+            <artifactId>caa-lib</artifactId>
+            <version>0.0.2</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.8.5</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mtanevski.master</groupId>
-            <artifactId>caa-lib</artifactId>
-            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
@@ -75,7 +75,7 @@
                 <version>8.8.3</version>
                 <configuration>
                     <vendor>Marjan Tanevski</vendor>
-                    <mainClass>com.mtanevski.master.gui.JavaFxEntry</mainClass>
+                    <mainClass>com.mtanevski.master.caa.gui.MainEntry</mainClass>
                 </configuration>
             </plugin>
             <plugin>
