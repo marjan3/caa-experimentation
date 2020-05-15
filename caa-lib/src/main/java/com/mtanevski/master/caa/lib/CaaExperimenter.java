@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public final class CaaExperimenter {
 
-    public static CaaExperimentResults execute(CaaGraph graph, CaaExperimentInput caaExperimentInput) {
+    public static CaaExperimentResults executeExperiment(CaaGraph graph, CaaExperimentInput caaExperimentInput) {
         CaaAgent agent = CaaAgentFactory.getAgent(caaExperimentInput.getAgentType());
         CaaExperimentResults results = new CaaExperimentResults(graph.getStart());
 

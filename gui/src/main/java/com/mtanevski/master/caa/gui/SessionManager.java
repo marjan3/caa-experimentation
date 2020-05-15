@@ -102,7 +102,7 @@ public class SessionManager {
 
         CaaExperimentInput experiment = CaaExperimentInput.create(caaAgentType, happyMultiplier, sadMultiplier);
 
-        CaaExperimentResults results = CaaExperimenter.execute(SessionManager.graph(), experiment);
+        CaaExperimentResults results = CaaExperimenter.executeExperiment(SessionManager.graph(), experiment);
         caaExperimentSaveData = new CaaExperimentSaveData(experiment, results);
         return caaExperimentSaveData;
     }

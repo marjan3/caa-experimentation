@@ -49,7 +49,7 @@ public class CaaImplementationTest {
         TinkerCaaGraph graph = new TinkerCaaGraph(this.graphLocation, false);
         CaaExperimentInput experiment = CaaExperimentInput.create(CaaAgentType.UNTRAVELED_EDGE);
 
-        CaaExperimentResults results = CaaExperimenter.execute(graph, experiment);
+        CaaExperimentResults results = CaaExperimenter.executeExperiment(graph, experiment);
 
         System.out.printf("Experiment for graph [%s]: " + System.lineSeparator(), this.graphFilename);
         System.out.println(" - " + results.getHistory().size() + " generations");
