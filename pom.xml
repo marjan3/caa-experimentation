@@ -11,9 +11,9 @@
     <name>Caa Experimentation</name>
 
     <modules>
-        <module>caa-lib</module>
-        <module>gui</module>
-        <module>console</module>
+        <module>caa-experimentation-lib</module>
+        <module>caa-experimentation-gui</module>
+        <module>caa-experimentation-console</module>
     </modules>
 
     <properties>

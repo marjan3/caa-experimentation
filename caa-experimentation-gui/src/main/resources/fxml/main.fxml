@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" prefHeight="725.0" prefWidth="900.0" xmlns="http://javafx.com/javafx">
+    <fx:include source="top-menu.fxml"/>
+    <fx:include source="workspace.fxml"/>
+    <fx:include source="loading-toolbar.fxml"/>
+</VBox>

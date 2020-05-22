@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<HBox xmlns:fx="http://javafx.com/fxml/1" prefHeight="647.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/11.0.1"
+      fx:controller="com.mtanevski.master.caa.gui.controllers.GraphDetailsController">
+    <VBox alignment="CENTER_LEFT" prefHeight="410.0" prefWidth="500.0" spacing="20.0" HBox.hgrow="ALWAYS">
+        <HBox.margin>
+            <Insets bottom="10.0" left="20.0" right="10.0" top="20.0"/>
+        </HBox.margin>
+        <Label text="%graph.details.starting.vertex"/>
+        <TextField fx:id="startingVertexText" editable="false"/>
+        <Label text="%graph.details.happy.vertices"/>
+        <TextField fx:id="happyVerticesText" editable="false"/>
+        <Label text="%graph.details.sad.vertices"/>
+        <TextField fx:id="sadVerticesText" editable="false"/>
+        <Label text="%graph.details.all.vertices"/>
+        <TextField fx:id="verticesText" editable="false"/>
+        <Label text="%graph.details.all.edges"/>
+        <fx:include fx:id="edgesTableView" source="edges-table.fxml"/>
+    </VBox>
+    <PieChart fx:id="verticesTypesChart" HBox.hgrow="ALWAYS">
+        <HBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </HBox.margin>
+    </PieChart>
+</HBox>

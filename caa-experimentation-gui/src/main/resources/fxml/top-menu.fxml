@@ -1,0 +1,32 @@
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.VBox?>
+<MenuBar xmlns:fx="http://javafx.com/fxml" VBox.vgrow="NEVER"
+         fx:controller="com.mtanevski.master.caa.gui.controllers.TopMenuController">
+    <Menu mnemonicParsing="false" text="%file.menu">
+        <MenuItem mnemonicParsing="false" onAction="#openGraphFile" text="%file.menu.open.graph"/>
+        <MenuItem mnemonicParsing="false" onAction="#openResultsFile" text="%file.menu.open.results"/>
+        <Menu fx:id="openRecentMenu" mnemonicParsing="false" text="%file.menu.open.recent"/>
+        <SeparatorMenuItem mnemonicParsing="false"/>
+        <MenuItem fx:id="saveResultsItem" mnemonicParsing="false" onAction="#saveResults" text="%file.menu.save.results"
+                  disable="true"/>
+        <SeparatorMenuItem mnemonicParsing="false"/>
+        <MenuItem mnemonicParsing="false" onAction="#openPreferences" text="%file.menu.open.preferences"/>
+        <SeparatorMenuItem mnemonicParsing="false"/>
+        <MenuItem mnemonicParsing="false" onAction="#exit" text="%file.menu.quit"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Experiment">
+        <MenuItem mnemonicParsing="false" onAction="#animateCaaAgentTraversal" text="%experiment.menu.caa.traversal"/>
+        <MenuItem mnemonicParsing="false" onAction="#animateCaaExperiment" text="%experiment.menu.find.state"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="View">
+        <MenuItem mnemonicParsing="false" onAction="#viewGraphDetails" text="%view.menu.graph.details"/>
+        <CheckMenuItem mnemonicParsing="false" onAction="#viewShortestPaths" text="%view.menu.shortest.paths"/>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+        <MenuItem mnemonicParsing="false" onAction="#about" text="%help.menu.about"/>
+    </Menu>
+</MenuBar>
