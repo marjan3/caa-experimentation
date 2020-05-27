@@ -68,9 +68,11 @@ public class CaaImplementationTest {
 
     private void printResultsToConsole(CaaAgentType agentType, String graphFilename,CaaExperimentResults results) {
         System.out.printf(agentType.name() + " CAA Experiment for graph [%s]: " + System.lineSeparator(), graphFilename);
-        System.out.println(" - " + results.getHistory().size() + " generations");
-        System.out.println(" - " + results.getHistory().stream().mapToInt( d -> d.getTraversedEdges().size()).sum()
-                + " times an edge was traversed");
-        System.out.println(" - " + Math.round(results.getHappyToShortestPathFactor() * 100) + "% happy to short factor");
+        List<CaaTraversalData> history = results.getHistory();
+        System.out.println(String.format(" - %d generations", history.size()));
+        int sum = history.stream().mapToInt(d -> d.getTraversedEdges().size()).sum();
+        System.out.println(String.format(" - %d edge traversals in total", sum));
+        long happyToShortPercent = Math.round(results.getHappyToShortestPathFactor() * 100);
+        System.out.println(" - " + happyToShortPercent + "% happy to short factor");
     }
 }

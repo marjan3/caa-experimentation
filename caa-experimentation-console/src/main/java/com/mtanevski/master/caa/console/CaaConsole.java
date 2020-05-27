@@ -119,7 +119,7 @@ public class CaaConsole {
                 CaaEdge traversedEdge = iterator.next();
                 caaExperimenter.trailEdge(traversedEdge, graph, results);
                 caaExperimenter.trailCaaDataForEdge(traversedEdge, graph,
-                        Constants.HAPPY_INCREMENTER, Constants.SAD_INCREMENTER, results
+                        Constants.HAPPY_INCREMENT, Constants.SAD_INCREMENT, results
                 );
                 printState(results, graph);
                 printWalking();

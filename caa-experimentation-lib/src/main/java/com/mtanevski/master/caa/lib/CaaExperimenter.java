@@ -88,7 +88,7 @@ public final class CaaExperimenter {
         results.current().addTraversedEdge(edge);
 
         // incrementing weight to indicate that the edge has been traversed
-        graph.incrementTraversalWeight(Constants.TRAVERSAL_INCREMENTER, caaEdge.getFrom(), caaEdge.getTo());
+        graph.incrementTraversalWeight(Constants.TRAVERSAL_INCREMENT, caaEdge.getFrom(), caaEdge.getTo());
     }
 
     public void trailCaaDataForEdge(CaaEdge caaEdge, CaaGraph graph, double increment, double decrement,

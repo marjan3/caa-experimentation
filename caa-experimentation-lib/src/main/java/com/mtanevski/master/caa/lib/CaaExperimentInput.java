@@ -17,7 +17,7 @@ public class CaaExperimentInput {
     }
 
     public static CaaExperimentInput create(CaaAgentType agentType) {
-        return create(agentType, Constants.HAPPY_INCREMENTER, Constants.SAD_INCREMENTER);
+        return create(agentType, Constants.HAPPY_INCREMENT, Constants.SAD_INCREMENT);
     }
 
     public static CaaExperimentInput create(CaaAgentType agentType,

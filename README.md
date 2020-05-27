@@ -69,8 +69,6 @@ Check console and generated graph for results or use the application to run own 
 
 # Future
  - Increase unit test coverage for `caa-lib` to 100% (current is 90%)
- - Use a framework for GUI part to organize code better
  - Support for other formats then `graphml`
  - Rename `happy` & `sad` to something else
- - 
 
