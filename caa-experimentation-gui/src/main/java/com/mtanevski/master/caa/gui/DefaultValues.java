@@ -39,7 +39,7 @@ public interface DefaultValues {
     double HAPPY_INCREMENTER_MIN_VALUE = 1.1;
     double HAPPY_INCREMENTER_MAX_VALUE = 10.0;
     boolean SHOULD_ANIMATE_CAA = false;
-    CaaAgentType AGENT_TYPE_VALUE = CaaAgentType.UNTRAVELED_EDGE;
+    CaaAgentType AGENT_TYPE_VALUE = CaaAgentType.ORIGINAL;
 
     // Supported file types
     enum FilterMode {

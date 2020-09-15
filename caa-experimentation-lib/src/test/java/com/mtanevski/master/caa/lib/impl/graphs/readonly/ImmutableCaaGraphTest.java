@@ -3,7 +3,7 @@ package com.mtanevski.master.caa.lib.impl.graphs.readonly;
 import com.mtanevski.master.caa.lib.impl.graphs.tinker.TinkerCaaGraph;
 import org.junit.Test;
 
-import static hamcrest.matchers.FailWithMatcher.failsWith;
+import static com.mtanevski.hamcrest.matchers.FailWithMatcher.failsWith;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;

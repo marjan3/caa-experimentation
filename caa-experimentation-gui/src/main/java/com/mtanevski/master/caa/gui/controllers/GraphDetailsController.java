@@ -50,8 +50,6 @@ public class GraphDetailsController {
 
         List<String> otherVertices = caaGraph.getAllVertices().stream()
                 .filter(v -> !caaGraph.getSad().contains(v) && !caaGraph.getHappy().contains(v)).collect(Collectors.toList());
-        String title = messageSource.getMessage("graph.details.chart.title", null, Locale.getDefault());
-        verticesTypesChart.setTitle(title);
         String happyDataTitle = messageSource.getMessage("graph.details.chart.data.happy",
                 new Object[]{caaGraph.getHappy().size()}, Locale.getDefault());
         String sadDataTitle = messageSource.getMessage("graph.details.chart.data.sad",

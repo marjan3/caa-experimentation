@@ -11,3 +11,4 @@ public class InformationAlert extends Alert {
         this.setContentText(content);
     }
 }
+

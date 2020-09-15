@@ -8,8 +8,17 @@ public class SimpleCaaEdge extends CaaEdge {
         super(from, to, 0, 0);
     }
 
+    public SimpleCaaEdge(CaaEdge e) {
+        super(e.getFrom(), e.getTo(), 0, 0);
+    }
+
     public static CaaEdge of(String from, String to) {
         return new SimpleCaaEdge(from, to);
+    }
+
+    @Override
+    public String toString() {
+        return "(" + super.getFrom() + "-" + super.getTo() + ")";
     }
 
 }

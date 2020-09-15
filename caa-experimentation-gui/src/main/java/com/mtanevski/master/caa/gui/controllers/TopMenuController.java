@@ -41,6 +41,9 @@ public class TopMenuController {
     @FXML
     public MenuItem saveResultsItem;
 
+    @FXML
+    public CheckMenuItem viewShortestPathsItem;
+
     public TopMenuController(ApplicationContext context,
                              RecentFilesRepository recentFilesRepository) {
         this.context = context;
@@ -59,6 +62,7 @@ public class TopMenuController {
         if (chosenGraphFile != null) {
             this.context.publishEvent(new OpenGraphEvent(chosenGraphFile));
             this.addAllRecentFilesToMenu();
+            viewShortestPathsItem.setSelected(false);
         }
     }
 
@@ -121,7 +125,7 @@ public class TopMenuController {
     }
 
     @FXML
-    public void viewShortestPaths(ActionEvent event) {
+    public void viewShortestPath(ActionEvent event) {
         CheckMenuItem source = (CheckMenuItem) event.getSource();
         this.context.publishEvent(new GraphShortestPathEvent(source.isSelected()));
     }
@@ -157,6 +161,7 @@ public class TopMenuController {
             menuItem.setOnAction(action -> {
                 if (f.endsWith(".graphml")) {
                     this.context.publishEvent(new OpenGraphEvent(chosenFile));
+                    viewShortestPathsItem.setSelected(false);
                 } else if (f.endsWith(".json")) {
                     this.context.publishEvent(new OpenResultsEvent(chosenFile));
                 }

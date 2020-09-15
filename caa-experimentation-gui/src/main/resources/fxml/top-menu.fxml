@@ -24,7 +24,8 @@
     </Menu>
     <Menu mnemonicParsing="false" text="View">
         <MenuItem mnemonicParsing="false" onAction="#viewGraphDetails" text="%view.menu.graph.details"/>
-        <CheckMenuItem mnemonicParsing="false" onAction="#viewShortestPaths" text="%view.menu.shortest.paths"/>
+        <CheckMenuItem fx:id="viewShortestPathsItem" mnemonicParsing="false" onAction="#viewShortestPath"
+                       text="%view.menu.shortest.paths"/>
     </Menu>
     <Menu mnemonicParsing="false" text="Help">
         <MenuItem mnemonicParsing="false" onAction="#about" text="%help.menu.about"/>

@@ -4,6 +4,8 @@ import com.mtanevski.master.caa.gui.models.CaaExperimentData;
 import com.mtanevski.master.caa.lib.CaaExperimentResults;
 import com.mtanevski.master.caa.lib.CaaGraph;
 import com.mtanevski.master.caa.lib.CaaTraversalData;
+import com.mtanevski.master.caa.lib.impl.edges.SimpleCaaEdge;
+import com.mtanevski.master.caa.lib.impl.edges.WeightedCaaEdge;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
@@ -12,6 +14,8 @@ import javafx.scene.chart.PieChart;
 import javafx.scene.chart.StackedBarChart;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.Pagination;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -21,8 +25,10 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.stream.Collectors;
 
 import static javafx.collections.FXCollections.observableArrayList;
+import static org.apache.commons.lang3.StringUtils.join;
 
 @Component
 public class ExperimentResultsController {
@@ -32,13 +38,15 @@ public class ExperimentResultsController {
     @FXML
     public Text generationEndText;
     @FXML
-    public Text incrementsText;
+    public TextArea incrementsTextArea;
     @FXML
-    public Text traversedEdgesText;
-    @FXML
-    public Text traversedVerticesText;
+    public TextArea traversedEdgesTextArea;
     @FXML
     public Text happyToShortestPathFactor;
+    @FXML
+    public Text edgeTraversalsInTotal;
+    @FXML
+    public TextField traversedVerticesTextField;
     @FXML
     public StackedBarChart<String, Number> verticesTraversalsChart;
     @FXML
@@ -65,6 +73,7 @@ public class ExperimentResultsController {
         }
         setVerticesTraversalsChart(history, caaGraph);
         setShortestPathEfficiency(caaExperimentSaveData.getResults());
+        setEdgeTraversalsInTotal(caaExperimentSaveData.getResults());
         setGenerationsHappinessChart(history);
         setPerGenerationTab(history);
     }
@@ -79,6 +88,11 @@ public class ExperimentResultsController {
         happyToShortestPathFactor.setText(results.getHappyToShortestPathFactor() * 100 + "%");
     }
 
+    private void setEdgeTraversalsInTotal(CaaExperimentResults results) {
+        int sum = results.getHistory().stream().mapToInt(d -> d.getTraversedEdges().size()).sum();
+        edgeTraversalsInTotal.setText(sum + "");
+    }
+
     private void setPerGenerationTab(List<CaaTraversalData> history) {
         String happyString = messageSource.getMessage("experiment.results.generation.end.happy",
                 null, Locale.getDefault());
@@ -91,9 +105,17 @@ public class ExperimentResultsController {
             generationNumberText.setText("" + (pageIndex + 1));
             generationEndText.setText(data.isHappy() ? happyString : sadString);
             edgesTableViewController.setTableData(data.getGraph());
-            incrementsText.setText("" + data.getIncrements());
-            traversedEdgesText.setText("" + data.getTraversedEdges());
-            traversedVerticesText.setText("" + data.getTraversedVertices());
+            List<WeightedCaaEdge> increments = data.getTraversedEdges()
+                    .stream()
+                    .map(WeightedCaaEdge::new)
+                    .collect(Collectors.toList());
+            incrementsTextArea.setText(join(increments, ", "));
+            List<SimpleCaaEdge> traversedEdges = data.getTraversedEdges()
+                    .stream()
+                    .map(SimpleCaaEdge::new)
+                    .collect(Collectors.toList());
+            traversedEdgesTextArea.setText(join(traversedEdges, ", "));
+            traversedVerticesTextField.setText(join(data.getTraversedVertices(), ", "));
             return new VBox();
         });
     }
@@ -129,7 +151,7 @@ public class ExperimentResultsController {
                 new Object[]{happyGenerationsCounter}, Locale.getDefault());
         PieChart.Data happyGenerations = new PieChart.Data(happyGenerationsCounterName, happyGenerationsCounter);
         String sadGenerationsCounterName = messageSource.getMessage("experiment.results.sad.generations",
-                new Object[]{happyGenerationsCounter}, Locale.getDefault());
+                new Object[]{sadGenerationsCounter}, Locale.getDefault());
         PieChart.Data sadGenerations = new PieChart.Data(sadGenerationsCounterName, sadGenerationsCounter);
         ObservableList<PieChart.Data> pieChartData =
                 observableArrayList(

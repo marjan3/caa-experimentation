@@ -28,6 +28,9 @@ public class OpenResultsListener implements ApplicationListener<OpenResultsEvent
     public void onApplicationEvent(OpenResultsEvent event) {
         try {
             CaaExperimentData caaExperimentData = caaExperimentDataService.loadExperimentData(event.getFile());
+//           /* NOTE: Applies for generating data in the master document. */
+//            String content = getContent(caaExperimentData);
+//            new TextAlert("Results", event.getFile().getName(), content).show();
             Tab newTab = workspaceController.newResultsPane(caaExperimentData, event.getFile().getName());
             workspaceController.workspace.getTabs().add(newTab);
             recentFilesRepository.add(event.getFile().getAbsolutePath());
@@ -35,4 +38,19 @@ public class OpenResultsListener implements ApplicationListener<OpenResultsEvent
             recentFilesRepository.remove(event.getFile().getAbsolutePath());
         }
     }
+
+//    /* NOTE: Applies for generating data in the master document. */
+//    private String getContent(CaaExperimentData caaExperimentData) {
+//        StringBuilder builder = new StringBuilder();
+//        final CaaExperimentResults results = caaExperimentData.getResults();
+//        builder.append("30|").append(join(toSimpleCaaEdgeList(results.getPathToHappyState()), ",")).append("|");
+//        builder.append(results.getPathToHappyState().size()).append("|");
+//        builder.append(String.format("%.2f", results.getHappyToShortestPathFactor() * 100)).append("%\n");
+//        builder.append("|||\n");
+//        return builder.toString();
+//    }
+
+//    private static List<SimpleCaaEdge> toSimpleCaaEdgeList(List<? extends CaaEdge> caaEdges){
+//        return caaEdges.stream().map(SimpleCaaEdge::new).collect(Collectors.toList());
+//    }
 }

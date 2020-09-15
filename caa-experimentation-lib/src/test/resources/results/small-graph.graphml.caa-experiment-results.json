@@ -1,0 +1,5608 @@
+{
+  "version": 1,
+  "experiment": {
+    "agentType": "ORIGINAL",
+    "increment": 1.5,
+    "decrement": -0.5
+  },
+  "results": {
+    "sadnessPaths": [
+      [
+        "n55",
+        "n66"
+      ],
+      [
+        "n65",
+        "n66"
+      ]
+    ],
+    "happinessPaths": [
+      [
+        "n55",
+        "n63"
+      ],
+      [
+        "n51",
+        "n55"
+      ],
+      [
+        "n11",
+        "n51"
+      ],
+      [
+        "n56",
+        "n51"
+      ],
+      [
+        "n12",
+        "n11"
+      ],
+      [
+        "n6",
+        "n12"
+      ],
+      [
+        "n7",
+        "n6"
+      ],
+      [
+        "n5",
+        "n6"
+      ],
+      [
+        "n8",
+        "n7"
+      ],
+      [
+        "n4",
+        "n6"
+      ]
+    ],
+    "pathToHappyState": [
+      {
+        "from": "n4",
+        "to": "n6",
+        "weight": 1.5,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "n6",
+        "to": "n12",
+        "weight": 7.5,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "n12",
+        "to": "n11",
+        "weight": 9.0,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "n11",
+        "to": "n51",
+        "weight": 10.5,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "n51",
+        "to": "n55",
+        "weight": 13.5,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "n55",
+        "to": "n63",
+        "weight": 15.0,
+        "traversalWeight": 0.0
+      }
+    ],
+    "current": {
+      "startingVertexLabel": "n4",
+      "traversedVertices": [
+        "n4",
+        "n6",
+        "n12",
+        "n11",
+        "n51",
+        "n55",
+        "n63"
+      ],
+      "traversedEdges": [
+        {
+          "from": "n4",
+          "to": "n6",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n6",
+          "to": "n12",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n12",
+          "to": "n11",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n11",
+          "to": "n51",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n51",
+          "to": "n55",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        }
+      ],
+      "increments": [
+        {
+          "from": "n4",
+          "to": "n6",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n6",
+          "to": "n12",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n12",
+          "to": "n11",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n11",
+          "to": "n51",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n51",
+          "to": "n55",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "n55",
+          "to": "n63",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        }
+      ],
+      "sad": false,
+      "happy": true,
+      "traversedVertex": "n63",
+      "traversedEdge": {
+        "from": "n55",
+        "to": "n63",
+        "weight": 0.0,
+        "traversalWeight": 0.0
+      },
+      "graph": {
+        "edges": [
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n65",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n66",
+            "to": "n55",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n64",
+            "to": "n65",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n66",
+            "to": "n65",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n66",
+            "to": "n64",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n63",
+            "to": "n64",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 15.0,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 13.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n6",
+            "weight": 7.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 1.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 9.0,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 3.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 10.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n56",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "vertices": [
+          "n11",
+          "n55",
+          "n66",
+          "n12",
+          "n56",
+          "n4",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n51",
+          "n63",
+          "n64",
+          "n10",
+          "n65"
+        ],
+        "start": "n4",
+        "happy": [
+          "n63"
+        ],
+        "sad": [
+          "n66"
+        ],
+        "shortestPaths": {
+          "n63": [
+            {
+              "from": "n4",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n6",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n55",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "traversalDataHistory": [
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n8",
+          "n5",
+          "n9",
+          "n8",
+          "n5",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n12",
+          "n11",
+          "n10",
+          "n56",
+          "n51",
+          "n11",
+          "n12",
+          "n56",
+          "n51",
+          "n55",
+          "n56",
+          "n51",
+          "n11",
+          "n12",
+          "n6",
+          "n7",
+          "n8",
+          "n5",
+          "n6",
+          "n4",
+          "n9",
+          "n5",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n5",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n5",
+          "n6",
+          "n12",
+          "n56",
+          "n51",
+          "n11",
+          "n12",
+          "n56",
+          "n51",
+          "n11",
+          "n10",
+          "n56",
+          "n12",
+          "n6",
+          "n4",
+          "n9",
+          "n5",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n5",
+          "n8",
+          "n7",
+          "n6",
+          "n4",
+          "n9",
+          "n5",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n12",
+          "n56",
+          "n51",
+          "n55",
+          "n66"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n66",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n55",
+            "to": "n66",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": true,
+        "happy": false,
+        "traversedVertex": "n66",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n66",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 0.0,
+              "traversalWeight": -6.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": -10.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -6.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": -8.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -9.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -11.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n6",
+          "n7",
+          "n8",
+          "n5",
+          "n9",
+          "n4",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n56",
+          "n12",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n5",
+          "n8",
+          "n9",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n5",
+          "n8",
+          "n7",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n5",
+          "n6",
+          "n12",
+          "n11",
+          "n10",
+          "n56",
+          "n51",
+          "n11",
+          "n10",
+          "n56",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -6.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": -6.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -6.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -6.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n8",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n5",
+          "n6",
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n4",
+          "n9",
+          "n5",
+          "n6",
+          "n12",
+          "n11",
+          "n10",
+          "n56",
+          "n51",
+          "n11",
+          "n12",
+          "n56",
+          "n65",
+          "n66"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n65",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n65",
+            "to": "n66",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n65",
+            "to": "n66",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": true,
+        "happy": false,
+        "traversedVertex": "n66",
+        "traversedEdge": {
+          "from": "n65",
+          "to": "n66",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n8",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n5",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n12",
+          "n56",
+          "n10",
+          "n11",
+          "n12",
+          "n56",
+          "n10",
+          "n11",
+          "n12",
+          "n56",
+          "n51",
+          "n11",
+          "n12",
+          "n6",
+          "n4",
+          "n9",
+          "n5",
+          "n8",
+          "n9",
+          "n5",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n5",
+          "n9",
+          "n4",
+          "n6",
+          "n7",
+          "n8",
+          "n5",
+          "n9",
+          "n4",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n10",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -5.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n5",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 4.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n5",
+          "n8",
+          "n9",
+          "n5",
+          "n8",
+          "n7",
+          "n6",
+          "n4",
+          "n9",
+          "n5",
+          "n8",
+          "n9",
+          "n5",
+          "n8",
+          "n7",
+          "n6",
+          "n12",
+          "n56",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n56",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n56",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 6.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 4.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -4.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n6",
+          "n7",
+          "n8",
+          "n9",
+          "n4",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 7.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 6.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n5",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n5",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 9.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 7.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 4.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 10.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 9.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 4.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 6.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n5",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n5",
+            "to": "n6",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 12.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 10.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 4.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 6.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 7.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n9",
+          "n8",
+          "n7",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n9",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n8",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n8",
+            "to": "n7",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n7",
+            "to": "n6",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 13.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 12.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 6.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 7.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 9.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n4",
+        "traversedVertices": [
+          "n4",
+          "n6",
+          "n12",
+          "n11",
+          "n51",
+          "n55",
+          "n63"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n4",
+            "to": "n6",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n12",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n12",
+            "to": "n11",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n51",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n51",
+            "to": "n55",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n55",
+            "to": "n63",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n63",
+        "traversedEdge": {
+          "from": "n55",
+          "to": "n63",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n56",
+              "to": "n51",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n65",
+              "to": "n56",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n55",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n64",
+              "to": "n65",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n65",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n66",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n63",
+              "to": "n64",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n55",
+              "to": "n63",
+              "weight": 15.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n51",
+              "to": "n55",
+              "weight": 13.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n8",
+              "to": "n7",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n12",
+              "to": "n6",
+              "weight": 7.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n4",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n12",
+              "to": "n11",
+              "weight": 9.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n6",
+              "to": "n7",
+              "weight": 3.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n11",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n6",
+              "weight": 1.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n8",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n4",
+              "to": "n9",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n51",
+              "to": "n11",
+              "weight": 10.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n56",
+              "to": "n10",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n56",
+              "to": "n12",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n11",
+            "n55",
+            "n66",
+            "n12",
+            "n56",
+            "n4",
+            "n5",
+            "n6",
+            "n7",
+            "n8",
+            "n9",
+            "n51",
+            "n63",
+            "n64",
+            "n10",
+            "n65"
+          ],
+          "start": "n4",
+          "happy": [
+            "n63"
+          ],
+          "sad": [
+            "n66"
+          ],
+          "shortestPaths": {
+            "n63": [
+              {
+                "from": "n4",
+                "to": "n6",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n6",
+                "to": "n12",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n12",
+                "to": "n56",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n56",
+                "to": "n55",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "n55",
+                "to": "n63",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "happyToShortestPathFactor": 0.6
+  }
+}

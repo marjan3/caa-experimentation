@@ -9,63 +9,95 @@
 <?import javafx.scene.control.Pagination?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-<AnchorPane xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx"
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1"
             fx:controller="com.mtanevski.master.caa.gui.controllers.ExperimentResultsController">
-    <VBox alignment="CENTER" prefHeight="615.0" prefWidth="642.0" AnchorPane.bottomAnchor="0.0"
+    <VBox alignment="CENTER" prefHeight="794.0" prefWidth="642.0" AnchorPane.bottomAnchor="0.0"
           AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-        <TabPane prefHeight="580.0" prefWidth="638.0" side="RIGHT" tabClosingPolicy="UNAVAILABLE"
-                 VBox.vgrow="ALWAYS">
+        <TabPane prefHeight="761.0" prefWidth="642.0" side="RIGHT" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
             <Tab text="%experiment.results.all.vertices.traversals">
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                    <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0"
-                          AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                          AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" AnchorPane.bottomAnchor="0.0"
+                          AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                         <padding>
-                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                            <Insets bottom="5.0" left="5.0" right="5.0" top="20.0"/>
                         </padding>
-                        <StackedBarChart fx:id="verticesTraversalsChart" prefWidth="944.0">
-                            <xAxis>
-                                <CategoryAxis side="BOTTOM" label="%experiment.results.vertices.traversal.chart.xAxis"/>
-                            </xAxis>
-                            <yAxis>
-                                <NumberAxis side="LEFT" label="%experiment.results.vertices.traversal.chart.yAxis" />
-                            </yAxis>
-                        </StackedBarChart>
-                        <PieChart fx:id="generationsHappinessChart" title="%experiment.results.generation.happiness.chart"/>
-                        <HBox prefHeight="100.0" prefWidth="200.0">
-                            <VBox.margin>
-                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
-                            </VBox.margin>
+                        <HBox alignment="CENTER" maxHeight="50.0" VBox.vgrow="NEVER">
                             <Label text="%experiment.results.happy.to.shortest.path.factor">
                                 <HBox.margin>
                                     <Insets right="5.0"/>
                                 </HBox.margin>
+                                <font>
+                                    <Font size="18.0"/>
+                                </font>
                             </Label>
-                            <Text fx:id="happyToShortestPathFactor" strokeType="OUTSIDE"
-                                  strokeWidth="0.0" text="\%number%"/>
+                            <Text fx:id="happyToShortestPathFactor" strokeType="OUTSIDE" strokeWidth="0.0"
+                                  text="\%number%">
+                                <font>
+                                    <Font name="System Bold" size="18.0"/>
+                                </font>
+                            </Text>
+                            <VBox.margin>
+                                <Insets top="10.0"/>
+                            </VBox.margin>
                         </HBox>
+                        <HBox alignment="CENTER" fillHeight="false" maxHeight="50.0" VBox.vgrow="NEVER">
+                            <children>
+                                <Label text="%experiment.results.edge.traversals.in.total">
+                                    <HBox.margin>
+                                        <Insets right="5.0"/>
+                                    </HBox.margin>
+                                    <font>
+                                        <Font size="18.0"/>
+                                    </font>
+                                </Label>
+                                <Text fx:id="edgeTraversalsInTotal" strokeType="OUTSIDE" strokeWidth="0.0"
+                                      text="\%number%">
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Text>
+                            </children>
+                            <VBox.margin>
+                                <Insets bottom="10.0" left="10.0" right="10.0"/>
+                            </VBox.margin>
+                        </HBox>
+                        <PieChart fx:id="generationsHappinessChart" prefHeight="150.0" prefWidth="282.0"
+                                  titleSide="BOTTOM" VBox.vgrow="ALWAYS">
+                            <VBox.margin>
+                                <Insets top="30.0"/>
+                            </VBox.margin>
+                        </PieChart>
+                        <StackedBarChart fx:id="verticesTraversalsChart" prefWidth="944.0" titleSide="BOTTOM"
+                                         VBox.vgrow="ALWAYS">
+                            <xAxis>
+                                <CategoryAxis label="%experiment.results.vertices.traversal.chart.xAxis" side="BOTTOM"/>
+                            </xAxis>
+                            <yAxis>
+                                <NumberAxis label="%experiment.results.vertices.traversal.chart.yAxis" side="LEFT"/>
+                            </yAxis>
+                        </StackedBarChart>
                     </VBox>
                 </AnchorPane>
             </Tab>
             <Tab text="%experiment.results.vertices.traversals.per.generation">
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                    <HBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
-                          AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                        <VBox prefHeight="875.0" prefWidth="463.0">
-                            <HBox alignment="CENTER" prefHeight="81.0" prefWidth="934.0"
-                                  spacing="5.0">
+                    <HBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                          AnchorPane.topAnchor="0.0">
+                        <VBox prefHeight="875.0" prefWidth="463.0" HBox.hgrow="NEVER">
+                            <HBox alignment="CENTER" prefHeight="81.0" prefWidth="934.0" spacing="5.0">
                                 <Label text="%experiment.results.generation">
                                     <font>
-                                        <Font name="System Bold" size="18.0"/>
+                                        <Font size="18.0"/>
                                     </font>
                                 </Label>
-                                <Text fx:id="generationNumberText" strokeType="OUTSIDE"
-                                      strokeWidth="0.0" text="\%">
+                                <Text fx:id="generationNumberText" strokeType="OUTSIDE" strokeWidth="0.0" text="\%">
                                     <font>
                                         <Font size="18.0"/>
                                     </font>
@@ -73,37 +105,44 @@
                             </HBox>
                             <VBox alignment="CENTER" prefHeight="60.0" prefWidth="170.0">
                                 <Label text="%experiment.results.generation.end"/>
-                                <Text fx:id="generationEndText" strokeType="OUTSIDE"
-                                      strokeWidth="0.0" text="Happy/Sad"
+                                <Text fx:id="generationEndText" strokeType="OUTSIDE" strokeWidth="0.0" text="Happy/Sad"
                                       textAlignment="CENTER" wrappingWidth="160.0"/>
                             </VBox>
                             <VBox alignment="CENTER" prefHeight="60.0" prefWidth="170.0">
                                 <Label text="%experiment.results.increments"/>
-                                <Text fx:id="incrementsText" strokeType="OUTSIDE"
-                                      strokeWidth="0.0" text="[{W,N}@0,5]"
-                                      textAlignment="CENTER" wrappingWidth="160.0"/>
+                                <TextArea fx:id="incrementsTextArea" editable="false" prefHeight="200.0"
+                                          prefWidth="200.0" text="[{W,N}@0,5]">
+                                    <VBox.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                    </VBox.margin>
+                                </TextArea>
                             </VBox>
                             <VBox alignment="CENTER" prefHeight="60.0" prefWidth="170.0">
                                 <Label text="%experiment.results.traversed.edges"/>
-                                <Text fx:id="traversedEdgesText" strokeType="OUTSIDE"
-                                      strokeWidth="0.0" text="[{W,N}]"
-                                      textAlignment="CENTER" wrappingWidth="160.0"/>
+                                <TextArea fx:id="traversedEdgesTextArea" editable="false" prefHeight="200.0"
+                                          prefWidth="200.0" text="{A,B},{W,N}">
+                                    <VBox.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                    </VBox.margin>
+                                </TextArea>
                             </VBox>
                             <VBox alignment="CENTER" prefHeight="60.0" prefWidth="170.0">
                                 <Label text="%experiment.results.traversed.vertices"/>
-                                <Text fx:id="traversedVerticesText" strokeType="OUTSIDE"
-                                      strokeWidth="0.0" text="[W, N]"
-                                      textAlignment="CENTER" wrappingWidth="160.0"/>
+                                <TextField fx:id="traversedVerticesTextField" editable="false" text="W,N">
+                                    <VBox.margin>
+                                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                    </VBox.margin>
+                                </TextField>
                             </VBox>
-                            <Pagination fx:id="traversalDataHistoryPages" prefHeight="28.0"
-                                        prefWidth="934.0" VBox.vgrow="ALWAYS"/>
+                            <Pagination fx:id="traversalDataHistoryPages" prefHeight="28.0" prefWidth="934.0"
+                                        VBox.vgrow="ALWAYS"/>
                         </VBox>
-                        <VBox alignment="CENTER" prefHeight="551.0" prefWidth="704.0"
-                              spacing="10.0">
+                        <VBox alignment="CENTER" prefHeight="551.0" prefWidth="704.0" spacing="10.0"
+                              HBox.hgrow="ALWAYS">
                             <padding>
-                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+                                <Insets bottom="10.0" right="10.0" top="10.0"/>
                             </padding>
-                            <fx:include fx:id="edgesTableView" source="edges-table.fxml"/>
+                            <fx:include fx:id="edgesTableView" source="edges-table.fxml" VBox.vgrow="ALWAYS"/>
                         </VBox>
                     </HBox>
                 </AnchorPane>

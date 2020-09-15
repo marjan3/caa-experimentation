@@ -9,7 +9,6 @@ import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.collection.IsEmptyCollection.empty;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertThat;
@@ -24,13 +23,11 @@ public class CaaTraversalDataTest {
         CaaTraversalData caaTraversalData = new CaaTraversalData("A");
 
         assertNull(caaTraversalData.getGraph());
-        assertThat(caaTraversalData.getIncrements(), empty());
         assertThat(caaTraversalData.getStart(), is("A"));
         assertThat(caaTraversalData.isHappy(), is(false));
         assertThat(caaTraversalData.isSad(), is(false));
         assertThat(caaTraversalData.getTraversedEdge(), CoreMatchers.is(new EmptyCaaEdge()));
         assertThat(caaTraversalData.getTraversedVertex(), is("A"));
-        assertThat(caaTraversalData.getTraversedEdges(), empty());
         assertThat(caaTraversalData.getTraversedVertices(), hasItems("A"));
         assertThat(caaTraversalData.getLastTraversedEdge(), is(new String[]{null, null}));
         assertThat(caaTraversalData.getLastTraversedVertex(), is("A"));

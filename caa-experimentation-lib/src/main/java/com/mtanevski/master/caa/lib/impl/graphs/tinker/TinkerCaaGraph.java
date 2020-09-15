@@ -41,6 +41,17 @@ public class TinkerCaaGraph implements CaaGraph {
         this.resetTraversalWeightData();
     }
 
+    private static Graph open(String location) {
+        Graph graph = TinkerGraph.open();
+        TinkerGraph.open();
+        graph.traversal()
+                .io(location)
+                .with(IO.reader, IO.graphml)
+                .read()
+                .iterate();
+        return graph;
+    }
+
     @Override
     public List<String> getAllVertices() {
         return g.V().toList().stream().map(vertex -> vertex.<String>value("label")).collect(Collectors.toList());
@@ -98,17 +109,6 @@ public class TinkerCaaGraph implements CaaGraph {
                 .bothE()
                 .otherV().<String>map(e -> e.get().value("label"))
                 .toList();
-    }
-
-    private static Graph open(String location) {
-        Graph graph = TinkerGraph.open();
-        TinkerGraph.open();
-        graph.traversal()
-                .io(location)
-                .with(IO.reader, IO.graphml)
-                .read()
-                .iterate();
-        return graph;
     }
 
     @Override
@@ -231,7 +231,15 @@ public class TinkerCaaGraph implements CaaGraph {
     @Override
     public List<CaaEdge> getShortestPath(String from, String to) {
         GraphTraversal<Vertex, Vertex> repeatTraversal = this.directed ? out().simplePath() : both().simplePath();
-        GraphTraversal<Vertex, Path> path = g.V().has("label", from).repeat(repeatTraversal).until(has("label", to)).path().by("label").limit(1);
+        // skipping sad vertices
+        this.getSad().forEach(v -> repeatTraversal.not(has("label", v)));
+
+        GraphTraversal<Vertex, Path> path = g.V()
+                .has("label", from)
+                .repeat(repeatTraversal)
+                .until(has("label", to))
+                .path()
+                .by("label").limit(1);
         Path p = path.toList().get(0);
         List<CaaEdge> caaEdges = new ArrayList<>();
         for (int i = 0; i < (p.size() - 1); i++) {

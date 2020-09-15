@@ -1,0 +1,573 @@
+{
+  "version": 1,
+  "experiment": {
+    "agentType": "ORIGINAL",
+    "increment": 1.5,
+    "decrement": -0.5
+  },
+  "results": {
+    "sadnessPaths": [
+      [
+        "n0",
+        "n2"
+      ],
+      [
+        "n0",
+        "n4"
+      ]
+    ],
+    "happinessPaths": [
+      [
+        "n0",
+        "n5"
+      ]
+    ],
+    "pathToHappyState": [
+      {
+        "from": "n0",
+        "to": "n5",
+        "weight": 1.5,
+        "traversalWeight": 0.0
+      }
+    ],
+    "current": {
+      "startingVertexLabel": "n0",
+      "traversedVertices": [
+        "n0",
+        "n5"
+      ],
+      "traversedEdges": [
+        {
+          "from": "n0",
+          "to": "n5",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        }
+      ],
+      "increments": [
+        {
+          "from": "n0",
+          "to": "n5",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        }
+      ],
+      "sad": false,
+      "happy": true,
+      "traversedVertex": "n5",
+      "traversedEdge": {
+        "from": "n0",
+        "to": "n5",
+        "weight": 0.0,
+        "traversalWeight": 0.0
+      },
+      "graph": {
+        "edges": [
+          {
+            "from": "n1",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n10",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n11",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n9",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n8",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n6",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n5",
+            "to": "n0",
+            "weight": 1.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "n4",
+            "to": "n0",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n3",
+            "to": "n0",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "n2",
+            "to": "n0",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "vertices": [
+          "n0",
+          "n11",
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n5",
+          "n6",
+          "n8",
+          "n9",
+          "n10"
+        ],
+        "start": "n0",
+        "happy": [
+          "n5"
+        ],
+        "sad": [
+          "n11",
+          "n1",
+          "n2",
+          "n3",
+          "n4",
+          "n6",
+          "n8",
+          "n9",
+          "n10"
+        ],
+        "shortestPaths": {
+          "n5": [
+            {
+              "from": "n0",
+              "to": "n5",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "traversalDataHistory": [
+      {
+        "startingVertexLabel": "n0",
+        "traversedVertices": [
+          "n0",
+          "n2"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n0",
+            "to": "n2",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n0",
+            "to": "n2",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": true,
+        "happy": false,
+        "traversedVertex": "n2",
+        "traversedEdge": {
+          "from": "n0",
+          "to": "n2",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n10",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n11",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n9",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n6",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n4",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n3",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n2",
+              "to": "n0",
+              "weight": -0.5,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "n0",
+            "n11",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n5",
+            "n6",
+            "n8",
+            "n9",
+            "n10"
+          ],
+          "start": "n0",
+          "happy": [
+            "n5"
+          ],
+          "sad": [
+            "n11",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n6",
+            "n8",
+            "n9",
+            "n10"
+          ],
+          "shortestPaths": {
+            "n5": [
+              {
+                "from": "n0",
+                "to": "n5",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n0",
+        "traversedVertices": [
+          "n0",
+          "n4"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n0",
+            "to": "n4",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n0",
+            "to": "n4",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": true,
+        "happy": false,
+        "traversedVertex": "n4",
+        "traversedEdge": {
+          "from": "n0",
+          "to": "n4",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n10",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n11",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n9",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n6",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n4",
+              "to": "n0",
+              "weight": -0.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n3",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n2",
+              "to": "n0",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n0",
+            "n11",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n5",
+            "n6",
+            "n8",
+            "n9",
+            "n10"
+          ],
+          "start": "n0",
+          "happy": [
+            "n5"
+          ],
+          "sad": [
+            "n11",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n6",
+            "n8",
+            "n9",
+            "n10"
+          ],
+          "shortestPaths": {
+            "n5": [
+              {
+                "from": "n0",
+                "to": "n5",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "n0",
+        "traversedVertices": [
+          "n0",
+          "n5"
+        ],
+        "traversedEdges": [
+          {
+            "from": "n0",
+            "to": "n5",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "n0",
+            "to": "n5",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "n5",
+        "traversedEdge": {
+          "from": "n0",
+          "to": "n5",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "n1",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n10",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n11",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n9",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n8",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n6",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n5",
+              "to": "n0",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "n4",
+              "to": "n0",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n3",
+              "to": "n0",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "n2",
+              "to": "n0",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "n0",
+            "n11",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n5",
+            "n6",
+            "n8",
+            "n9",
+            "n10"
+          ],
+          "start": "n0",
+          "happy": [
+            "n5"
+          ],
+          "sad": [
+            "n11",
+            "n1",
+            "n2",
+            "n3",
+            "n4",
+            "n6",
+            "n8",
+            "n9",
+            "n10"
+          ],
+          "shortestPaths": {
+            "n5": [
+              {
+                "from": "n0",
+                "to": "n5",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "happyToShortestPathFactor": 1.0
+  }
+}

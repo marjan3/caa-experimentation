@@ -1,0 +1,1335 @@
+{
+  "version": 1,
+  "experiment": {
+    "agentType": "ORIGINAL",
+    "increment": 1.5,
+    "decrement": -0.5
+  },
+  "results": {
+    "sadnessPaths": [
+      [
+        "c",
+        "k"
+      ],
+      [
+        "d",
+        "k"
+      ]
+    ],
+    "happinessPaths": [
+      [
+        "f",
+        "g"
+      ],
+      [
+        "e",
+        "f"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ],
+    "pathToHappyState": [
+      {
+        "from": "d",
+        "to": "e",
+        "weight": 1.5,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "e",
+        "to": "f",
+        "weight": 3.0,
+        "traversalWeight": 0.0
+      },
+      {
+        "from": "f",
+        "to": "g",
+        "weight": 4.5,
+        "traversalWeight": 0.0
+      }
+    ],
+    "current": {
+      "startingVertexLabel": "d",
+      "traversedVertices": [
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "traversedEdges": [
+        {
+          "from": "d",
+          "to": "e",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "e",
+          "to": "f",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "f",
+          "to": "g",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        }
+      ],
+      "increments": [
+        {
+          "from": "d",
+          "to": "e",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "e",
+          "to": "f",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        },
+        {
+          "from": "f",
+          "to": "g",
+          "weight": 1.5,
+          "traversalWeight": 0.0
+        }
+      ],
+      "sad": false,
+      "happy": true,
+      "traversedVertex": "g",
+      "traversedEdge": {
+        "from": "f",
+        "to": "g",
+        "weight": 0.0,
+        "traversalWeight": 0.0
+      },
+      "graph": {
+        "edges": [
+          {
+            "from": "i",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "k",
+            "to": "d",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "k",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "j",
+            "to": "k",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "i",
+            "to": "k",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "h",
+            "to": "j",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "g",
+            "to": "h",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 4.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "j",
+            "to": "i",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "b",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "a",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "b",
+            "to": "c",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "a",
+            "to": "b",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "a",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "d",
+            "weight": 1.5,
+            "traversalWeight": -1.0
+          },
+          {
+            "from": "f",
+            "to": "e",
+            "weight": 3.0,
+            "traversalWeight": -1.0
+          }
+        ],
+        "vertices": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k"
+        ],
+        "start": "d",
+        "happy": [
+          "g"
+        ],
+        "sad": [
+          "k"
+        ],
+        "shortestPaths": {
+          "g": [
+            {
+              "from": "d",
+              "to": "e",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "f",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "g",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ]
+        }
+      }
+    },
+    "traversalDataHistory": [
+      {
+        "startingVertexLabel": "d",
+        "traversedVertices": [
+          "d",
+          "c",
+          "k"
+        ],
+        "traversedEdges": [
+          {
+            "from": "d",
+            "to": "c",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "k",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "c",
+            "to": "k",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": true,
+        "happy": false,
+        "traversedVertex": "k",
+        "traversedEdge": {
+          "from": "c",
+          "to": "k",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "i",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "k",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "k",
+              "weight": -0.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "j",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "i",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "h",
+              "to": "j",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "g",
+              "to": "h",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "g",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "j",
+              "to": "i",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "b",
+              "to": "c",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "b",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "a",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "e",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "start": "d",
+          "happy": [
+            "g"
+          ],
+          "sad": [
+            "k"
+          ],
+          "shortestPaths": {
+            "g": [
+              {
+                "from": "d",
+                "to": "e",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "e",
+                "to": "f",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "f",
+                "to": "g",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "d",
+        "traversedVertices": [
+          "d",
+          "k"
+        ],
+        "traversedEdges": [
+          {
+            "from": "d",
+            "to": "k",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "d",
+            "to": "k",
+            "weight": -0.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": true,
+        "happy": false,
+        "traversedVertex": "k",
+        "traversedEdge": {
+          "from": "d",
+          "to": "k",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "i",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "k",
+              "to": "d",
+              "weight": -0.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "c",
+              "to": "k",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "j",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "i",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "h",
+              "to": "j",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "g",
+              "to": "h",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "g",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "j",
+              "to": "i",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "c",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "b",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "a",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "e",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            }
+          ],
+          "vertices": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "start": "d",
+          "happy": [
+            "g"
+          ],
+          "sad": [
+            "k"
+          ],
+          "shortestPaths": {
+            "g": [
+              {
+                "from": "d",
+                "to": "e",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "e",
+                "to": "f",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "f",
+                "to": "g",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "d",
+        "traversedVertices": [
+          "d",
+          "c",
+          "b",
+          "a",
+          "e",
+          "f",
+          "g"
+        ],
+        "traversedEdges": [
+          {
+            "from": "d",
+            "to": "c",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "b",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "b",
+            "to": "a",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "a",
+            "to": "e",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "f",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "g",
+        "traversedEdge": {
+          "from": "f",
+          "to": "g",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "i",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "k",
+              "to": "d",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "k",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "j",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "i",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "h",
+              "to": "j",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "g",
+              "to": "h",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "g",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "j",
+              "to": "i",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "b",
+              "to": "c",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "a",
+              "to": "b",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "e",
+              "to": "a",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "e",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "e",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "start": "d",
+          "happy": [
+            "g"
+          ],
+          "sad": [
+            "k"
+          ],
+          "shortestPaths": {
+            "g": [
+              {
+                "from": "d",
+                "to": "e",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "e",
+                "to": "f",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "f",
+                "to": "g",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "d",
+        "traversedVertices": [
+          "d",
+          "e",
+          "a",
+          "d",
+          "c",
+          "b",
+          "d",
+          "c",
+          "b",
+          "d",
+          "c",
+          "b",
+          "a",
+          "e",
+          "f",
+          "g"
+        ],
+        "traversedEdges": [
+          {
+            "from": "d",
+            "to": "e",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "a",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "a",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "d",
+            "to": "c",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "b",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "b",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "d",
+            "to": "c",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "b",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "b",
+            "to": "d",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "d",
+            "to": "c",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "c",
+            "to": "b",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "b",
+            "to": "a",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "a",
+            "to": "e",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "f",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "e",
+            "to": "f",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "g",
+        "traversedEdge": {
+          "from": "f",
+          "to": "g",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "i",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "k",
+              "to": "d",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "k",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "j",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "i",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "h",
+              "to": "j",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "g",
+              "to": "h",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "g",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "j",
+              "to": "i",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "a",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "c",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "b",
+              "to": "c",
+              "weight": 0.0,
+              "traversalWeight": -3.0
+            },
+            {
+              "from": "a",
+              "to": "b",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "e",
+              "to": "a",
+              "weight": 0.0,
+              "traversalWeight": -2.0
+            },
+            {
+              "from": "e",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "f",
+              "to": "e",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "start": "d",
+          "happy": [
+            "g"
+          ],
+          "sad": [
+            "k"
+          ],
+          "shortestPaths": {
+            "g": [
+              {
+                "from": "d",
+                "to": "e",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "e",
+                "to": "f",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "f",
+                "to": "g",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startingVertexLabel": "d",
+        "traversedVertices": [
+          "d",
+          "e",
+          "f",
+          "g"
+        ],
+        "traversedEdges": [
+          {
+            "from": "d",
+            "to": "e",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "f",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 0.0,
+            "traversalWeight": 0.0
+          }
+        ],
+        "increments": [
+          {
+            "from": "d",
+            "to": "e",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "e",
+            "to": "f",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          },
+          {
+            "from": "f",
+            "to": "g",
+            "weight": 1.5,
+            "traversalWeight": 0.0
+          }
+        ],
+        "sad": false,
+        "happy": true,
+        "traversedVertex": "g",
+        "traversedEdge": {
+          "from": "f",
+          "to": "g",
+          "weight": 0.0,
+          "traversalWeight": 0.0
+        },
+        "graph": {
+          "edges": [
+            {
+              "from": "i",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "k",
+              "to": "d",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "k",
+              "weight": -0.5,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "j",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "i",
+              "to": "k",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "h",
+              "to": "j",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "g",
+              "to": "h",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "f",
+              "to": "g",
+              "weight": 4.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "j",
+              "to": "i",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "c",
+              "to": "d",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "b",
+              "to": "c",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "a",
+              "to": "b",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "a",
+              "weight": 0.0,
+              "traversalWeight": 0.0
+            },
+            {
+              "from": "e",
+              "to": "d",
+              "weight": 1.5,
+              "traversalWeight": -1.0
+            },
+            {
+              "from": "f",
+              "to": "e",
+              "weight": 3.0,
+              "traversalWeight": -1.0
+            }
+          ],
+          "vertices": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "start": "d",
+          "happy": [
+            "g"
+          ],
+          "sad": [
+            "k"
+          ],
+          "shortestPaths": {
+            "g": [
+              {
+                "from": "d",
+                "to": "e",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "e",
+                "to": "f",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              },
+              {
+                "from": "f",
+                "to": "g",
+                "weight": 0.0,
+                "traversalWeight": 0.0
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "happyToShortestPathFactor": 1.0
+  }
+}
