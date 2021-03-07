@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>caa-experimentation-console</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <name>Caa Experimentation Console</name>
 
@@ -19,7 +19,7 @@
         <dependency>
             <groupId>com.mtanevski.master.caa</groupId>
             <artifactId>caa-experimentation-lib</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 

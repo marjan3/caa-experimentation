@@ -12,7 +12,7 @@
 
     <groupId>com.mtanevski.master.caa</groupId>
     <artifactId>caa-experimentation-gui</artifactId>
-    <version>0.1.0</version>
+    <version>0.0.1</version>
     <name>CAA Experimentation GUI</name>
     <description>CAA Experimentation graphical user interface</description>
 
@@ -25,7 +25,7 @@
         <dependency>
             <groupId>com.mtanevski.master.caa</groupId>
             <artifactId>caa-experimentation-lib</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.1</version>
         </dependency>
 
         <dependency>
