@@ -12,8 +12,8 @@
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
-<TabPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="452.0" prefWidth="380.0"
-         xmlns="http://javafx.com/javafx/11.0.1"
+<TabPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+         prefHeight="452.0" prefWidth="380.0"
          fx:controller="com.mtanevski.master.caa.gui.controllers.PreferencesController">
     <Tab closable="false" text="%preferences.dialog.tab.general">
         <GridPane alignment="CENTER" hgap="20.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"

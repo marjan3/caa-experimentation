@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-<HBox xmlns:fx="http://javafx.com/fxml/1" prefHeight="972.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/11.0.1"
+<HBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="972.0" prefWidth="526.0"
       fx:controller="com.mtanevski.master.caa.gui.controllers.GraphDetailsController">
     <VBox alignment="CENTER" prefHeight="942.0" prefWidth="513.0" spacing="20.0" HBox.hgrow="ALWAYS">
         <HBox.margin>
