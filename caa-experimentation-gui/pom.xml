@@ -116,7 +116,7 @@
         <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/mtanevski/caa-experimentation-gui</url>
+        <url>https://maven.pkg.github.com/marjan3/caa-experimentation-gui</url>
         </repository>
     </distributionManagement>
 
