@@ -10,10 +10,6 @@
     <packaging>pom</packaging>
     <name>Caa Experimentation</name>
 
-    <properties>
-      <maven.deploy.skip>true</maven.deploy.skip>
-    </properties>
-
     <modules>
         <module>caa-experimentation-lib</module>
         <module>caa-experimentation-gui</module>
@@ -21,6 +17,7 @@
     </modules>
 
     <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
