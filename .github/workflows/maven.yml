@@ -32,7 +32,7 @@ jobs:
         java-package: jdk+fx
     - name: Publish package
       run: |
-        echo ~/.m2/settings.xml
+        cat ~/.m2/settings.xml
         mvn -DskipTests --batch-mode deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
