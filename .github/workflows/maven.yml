@@ -31,6 +31,8 @@ jobs:
         java-version: '1.8'
         java-package: jdk+fx
     - name: Publish package
-      run: mvn -DskipTests --batch-mode deploy
+      run: |
+        echo ~/.m2/settings.xml
+        mvn -DskipTests --batch-mode deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
