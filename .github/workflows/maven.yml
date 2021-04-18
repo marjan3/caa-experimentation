@@ -31,4 +31,4 @@ jobs:
         java-version: '1.8'
         java-package: jdk+fx
     - name: Publish package
-      run: mvn --settings settings.xml deploy -B -DskipTests --settings
+      run: mvn --settings settings.xml deploy -B -DskipTests
