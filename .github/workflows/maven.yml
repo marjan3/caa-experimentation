@@ -31,6 +31,6 @@ jobs:
         java-version: '1.8'
         java-package: jdk+fx
     - name: Publish package
-      run: mvn -B -DskipTests deploy
+      run: mvn -B -Dmaven.wagon.http.pool=false -DskipTests deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
