@@ -10,6 +10,10 @@
     <packaging>pom</packaging>
     <name>Caa Experimentation</name>
 
+    <properties>
+      <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
     <modules>
         <module>caa-experimentation-lib</module>
         <module>caa-experimentation-gui</module>

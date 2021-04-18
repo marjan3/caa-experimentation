@@ -84,7 +84,7 @@
         <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://maven.pkg.github.com/mtanevski/caa-experimentation-lib</url>
+        <url>https://maven.pkg.github.com/marjan3/caa-experimentation-lib</url>
         </repository>
     </distributionManagement>
 
